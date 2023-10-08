@@ -6,7 +6,7 @@ dotenv.config();
 app.use("/api", require("../routes/blogs.js"));
 
 app.get("/", async (req, res) => {
-    res.send("This is home route");
+    res.send("Hello,I'm Sharvil \n Completed This Assignment\n I'm looking forward to this internship opportunity.\nThank You");
 })
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
